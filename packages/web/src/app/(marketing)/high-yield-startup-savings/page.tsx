@@ -270,21 +270,21 @@ export default function HighYieldStartupSavingsPage() {
             The Most Ambitious Founders Make Money on Every Dollar
           </h2>
           <p className="mt-4 text-[16px] text-white/90 max-w-[55ch] mx-auto">
-            Stop accepting low yields while your VCs expect 10x returns. Join
-            startups earning more on their treasury.
+            Stop accepting low yields while your VCs expect 10x returns. Existing
+            customers can log in to manage their treasury.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
             <Link
               href="/signin"
               className="inline-flex items-center px-6 py-3 text-[16px] font-medium text-[#1B29FF] bg-white hover:bg-white/90 rounded-md transition-colors"
             >
-              Open Your Account →
+              Login →
             </Link>
             <Link
-              href="https://cal.com/team/0finance/30"
+              href="https://docs.0.finance"
               className="inline-flex items-center px-6 py-3 text-[16px] font-medium text-white border-2 border-white hover:bg-white/10 rounded-md transition-colors"
             >
-              Book a Demo
+              Read docs
             </Link>
           </div>
         </div>
@@ -297,17 +297,17 @@ export default function HighYieldStartupSavingsPage() {
             The Most Ambitious Founders Deserve Better
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">
-            Stop leaving money on the table. Your investors expect you to
-            maximize every dollar.
+            Existing customers can log in to manage accounts and treasury
+            workflows.
           </p>
           <Link href="/signin">
             <Button size="lg">
-              Get Started with 0 Finance
+              Login
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
           <p className="text-sm text-gray-500 mt-4">
-            No minimums. No lock-ups. Start earning today.
+            Signups are paused for now.
           </p>
         </div>
       </section>

@@ -39,13 +39,13 @@ export default function StartupTreasuryPage() {
               href="/signin"
               className="inline-flex items-center px-6 py-3 text-[16px] font-medium text-white bg-[#1B29FF] hover:bg-[#1420CC] rounded-md transition-colors"
             >
-              Open Account in 5 Minutes →
+              Login →
             </Link>
             <Link
-              href="https://cal.com/team/0finance/30"
+              href="https://docs.0.finance"
               className="inline-flex items-center text-[15px] text-[#101010] hover:text-[#1B29FF] underline decoration-[#101010]/30 underline-offset-[4px] hover:decoration-[#1B29FF] transition-colors"
             >
-              Book Demo with Founders
+              Read docs
             </Link>
           </div>
 
@@ -153,7 +153,7 @@ export default function StartupTreasuryPage() {
             Simple Process
           </p>
           <h2 className="mt-2 font-serif text-[30px] sm:text-[36px] leading-[1.1] tracking-[-0.01em] text-[#101010] text-center">
-            From Sign-up to Earning in Minutes
+            From setup to earning in minutes
           </h2>
 
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-4 gap-px bg-[#101010]/10">

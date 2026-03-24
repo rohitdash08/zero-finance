@@ -8,7 +8,6 @@ import {
   CheckCircle,
   ChevronRight,
   ChevronLeft,
-  Calendar,
 } from 'lucide-react';
 import { usePrivy } from '@privy-io/react-auth';
 import Link from 'next/link';
@@ -186,13 +185,10 @@ export default function OnboardingLayout({
         <div className="text-center">
           <span className="text-sm font-semibold block">Need help?</span>
           <Link
-            href="https://cal.com/potato/0-finance-onboarding"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:support@0.finance"
             className="mt-2 bg-primary text-primary-foreground rounded-lg px-3 py-1.5 text-xs font-medium hover:bg-primary/90 transition-colors inline-flex items-center gap-1"
           >
-            <Calendar className="h-3 w-3" />
-            Book Demo
+            Email support
           </Link>
         </div>
       </div>

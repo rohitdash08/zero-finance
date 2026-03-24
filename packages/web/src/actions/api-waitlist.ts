@@ -97,16 +97,16 @@ export async function joinApiWaitlist(data: {
 
         // Send user confirmation if they provided an email
         if (data.email) {
-          const userEmailPayload = {
-            email: data.email,
-            transactionalId:
-              process.env.LOOPS_TRANSACTIONAL_ID_API_WAITLIST_CONFIRMATION?.trim(),
-            dataVariables: {
-              companyName: data.companyName,
-              useCase: data.useCase || 'Not provided',
-              calLink: 'https://cal.com/team/0finance/30',
-            },
-          };
+            const userEmailPayload = {
+              email: data.email,
+              transactionalId:
+                process.env.LOOPS_TRANSACTIONAL_ID_API_WAITLIST_CONFIRMATION?.trim(),
+              dataVariables: {
+                companyName: data.companyName,
+                useCase: data.useCase || 'Not provided',
+                calLink: '',
+              },
+            };
 
           console.log(
             '[USER EMAIL] Request:',

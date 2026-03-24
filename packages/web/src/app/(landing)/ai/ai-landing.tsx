@@ -557,10 +557,10 @@ export function AILanding() {
               <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
             <Link
-              href="https://cal.com/team/0finance/30"
+              href="https://docs.0.finance"
               className="inline-flex items-center px-5 py-2.5 text-[14px] font-medium text-[#101010] border border-[#101010]/15 hover:bg-white rounded transition-colors"
             >
-              Talk to us
+              Read docs
               <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
           </div>
@@ -586,10 +586,10 @@ export function AILanding() {
           </p>
           <div className="mt-6">
             <Link
-              href="https://cal.com/team/0finance/30"
+              href="https://docs.0.finance"
               className="inline-flex items-center px-5 py-2.5 text-[14px] font-medium text-white bg-[#101010] hover:bg-[#040404] rounded transition-colors"
             >
-              Get pricing
+              Read docs
               <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
           </div>

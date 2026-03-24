@@ -9,29 +9,28 @@ export function FinalCTASection() {
         <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
           <div className="max-w-[800px]">
             <h2 className="font-serif text-[28px] sm:text-[36px] lg:text-[48px] leading-[1.1] tracking-[-0.01em] text-[#101010]">
-              Start Growing Your{' '}
-              <span className="text-[#1B29FF]">Digital Dollars</span> Today
+              Signups are{' '}
+              <span className="text-[#1B29FF]">paused</span> for now
             </h2>
             <p className="mt-3 sm:mt-4 text-[15px] sm:text-[16px] lg:text-[18px] text-[#101010]/70">
-              Open a USDC savings account that earns competitive yield
-              automatically. No minimums, no lock-ups, full control of your
-              funds.
+              Existing customers can log in and manage their accounts. Docs
+              remain available for CLI and MCP usage.
             </p>
             <p className="mt-2 text-[14px] sm:text-[15px] font-medium text-[#101010]">
               Our treasury is in Zero. We use what we build.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
               <Link
-                href="/signin?source=crypto"
+                href="/signin"
                 className="inline-flex items-center px-6 py-3 text-[15px] sm:text-[16px] font-medium text-white bg-[#1B29FF] hover:bg-[#1420CC] rounded-md transition-colors"
               >
-                Open savings account →
+                Login →
               </Link>
               <Link
-                href="https://cal.com/team/0finance/30"
+                href="https://docs.0.finance"
                 className="inline-flex items-center text-[14px] sm:text-[15px] lg:text-[16px] text-[#101010] hover:text-[#1B29FF] underline decoration-[#101010]/30 underline-offset-[4px] hover:decoration-[#1B29FF] transition-colors"
               >
-                Schedule demo
+                Read docs
               </Link>
             </div>
           </div>
@@ -153,23 +152,7 @@ export function FinalCTASection() {
                     href="/signin"
                     className="text-[13px] text-[#101010]/70 hover:text-[#1B29FF] transition-colors"
                   >
-                    Sign In
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/signin?source=crypto"
-                    className="text-[13px] text-[#101010]/70 hover:text-[#1B29FF] transition-colors"
-                  >
-                    Open Account
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://cal.com/team/0finance/30"
-                    className="text-[13px] text-[#101010]/70 hover:text-[#1B29FF] transition-colors"
-                  >
-                    Book Demo
+                    Login
                   </Link>
                 </li>
               </ul>

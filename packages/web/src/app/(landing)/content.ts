@@ -38,10 +38,10 @@ export const LANDING_CONTENT: {
       'Your funds, your control — we never touch your balance',
     ],
     cta: {
-      primary: { label: 'Open account →', href: '/signin?source=crypto' },
+      primary: { label: 'Login →', href: '/signin' },
       secondary: {
-        label: 'Book a call',
-        href: 'https://cal.com/team/0finance/30',
+        label: 'Docs',
+        href: 'https://docs.0.finance',
       },
     },
   },

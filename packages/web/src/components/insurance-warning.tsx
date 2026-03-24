@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { api } from '@/trpc/react';
-import { X, AlertTriangle, Mail, Calendar } from 'lucide-react';
+import { X, AlertTriangle, Mail } from 'lucide-react';
 
 interface InsuranceWarningProps {
   variant?: 'dashboard' | 'savings' | 'deposit' | 'onboarding';
@@ -56,7 +56,7 @@ export function InsuranceWarning({
   const warningContent = {
     dashboard: {
       title: 'Your funds are not insured at the moment',
-      message: 'Schedule a call to activate insurance coverage.',
+      message: 'Contact us to activate insurance coverage.',
       severity: 'info' as const,
     },
     savings: {
@@ -117,16 +117,6 @@ export function InsuranceWarning({
                 >
                   <Mail className="h-4 w-4" />
                   Email raghav@0.finance
-                </a>
-                <span className="text-[12px] opacity-60">or</span>
-                <a
-                  href="https://cal.com/team/0finance/15?overlayCalendar=true"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`inline-flex items-center gap-1 underline hover:no-underline ${textColor}`}
-                >
-                  <Calendar className="h-4 w-4" />
-                  Schedule a meeting
                 </a>
               </div>
             </div>

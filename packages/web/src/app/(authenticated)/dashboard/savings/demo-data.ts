@@ -56,7 +56,6 @@ export const getRecipientName = (source: any, userData: any) => {
 export const ZERO_LOGO_SRC = '/images/new-logo-bluer.png';
 export const INSURANCE_CONTACT = {
   email: 'raghav@0.finance',
-  scheduleUrl: 'https://cal.com/team/0finance/30',
 };
 export const INSURED_VAULT_IDS = new Set<string>();
 

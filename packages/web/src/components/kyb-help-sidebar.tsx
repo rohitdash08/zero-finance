@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Sparkles, BookOpen, FileText, Calendar } from 'lucide-react';
+import { Sparkles, BookOpen, FileText, Mail } from 'lucide-react';
 import Link from 'next/link';
 import {
   Accordion,
@@ -451,17 +451,14 @@ export function KybHelpSidebar() {
       <div className="bg-white border border-[#101010]/10 rounded-[12px] shadow-[0_2px_8px_rgba(16,16,16,0.04)] p-4 flex flex-col items-center text-center mt-auto">
         <span className="text-sm font-semibold mb-1">Need help?</span>
         <span className="text-xs text-muted-foreground mb-2">
-          Book a personalized demo with our team and we&apos;ll walk you through
-          everything.
+          Email support and we&apos;ll walk you through KYB requirements.
         </span>
         <Link
-          href="https://cal.com/potato/0-finance-onboarding"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="mailto:support@0.finance"
           className="bg-[#1B29FF] text-white rounded-lg px-3 py-1.5 text-xs font-medium hover:bg-[#1420CC] transition-colors inline-flex items-center gap-1"
         >
-          <Calendar className="h-3 w-3" />
-          Book Demo
+          <Mail className="h-3 w-3" />
+          Email support
         </Link>
       </div>
     </>

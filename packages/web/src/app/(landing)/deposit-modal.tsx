@@ -156,12 +156,9 @@ export function DepositModal({ isOpen, onClose }: DepositModalProps) {
             </p>
           </div>
 
-          <Link
-            href="/signin?source=crypto"
-            className="block w-full py-3 bg-[#0050ff] hover:bg-[#0050ff]/90 text-white text-center font-semibold rounded-lg transition-all hover:scale-[1.02] active:scale-[0.97] shadow-lg shadow-[#0050ff]/25"
-          >
-            Sign Up →
-          </Link>
+          <div className="block w-full py-3 bg-[#101010]/10 text-[#101010]/60 text-center font-semibold rounded-lg">
+            Signups paused
+          </div>
         </div>
       </div>
     </div>

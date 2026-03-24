@@ -677,26 +677,24 @@ export default function LegalPage() {
       <section className="px-4 sm:px-6 lg:px-16 py-16 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0f1e46] mb-4">
-            Ready to take control?
+            Signups are paused
           </h2>
           <p className="text-xl text-[#5a6b91] mb-8">
-            Join companies earning {displayApy} APY with full custody and
-            insurance protection
+            Existing customers can log in to manage accounts. Docs remain
+            available while signups are paused.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/signin"
               className="inline-flex items-center justify-center px-8 py-4 bg-[#0050ff] hover:bg-[#0050ff]/90 text-white text-lg font-semibold rounded-xl transition-all hover:scale-[1.02] active:scale-[0.97] shadow-lg shadow-[#0050ff]/25"
             >
-              Open Your Account
+              Login
             </Link>
             <Link
-              href="https://cal.com/potato/0-finance-onboarding"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://docs.0.finance"
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#0050ff] text-lg font-semibold rounded-xl transition-all hover:scale-[1.02] active:scale-[0.97] shadow-lg border-2 border-[#0050ff]"
             >
-              Schedule a Call
+              Read docs
             </Link>
           </div>
         </div>
